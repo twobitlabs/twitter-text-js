@@ -600,8 +600,8 @@ if (typeof twttr === "undefined" || twttr === null) {
     options.cashtagUrlBase = options.cashtagUrlBase || "https://mobile.twitter.com/search?%24";
     options.listClass = options.listClass || DEFAULT_LIST_CLASS;
     options.usernameClass = options.usernameClass || DEFAULT_USERNAME_CLASS;
-    options.usernameUrlBase = options.usernameUrlBase || "https://twitter.com/";
-    options.listUrlBase = options.listUrlBase || "https://twitter.com/";
+    options.usernameUrlBase = options.usernameUrlBase || "https://mobile.twitter.com/";
+    options.listUrlBase = options.listUrlBase || "https://mobile.twitter.com/";
     options.htmlAttrs = twttr.txt.extractHtmlAttrsFromOptions(options);
     options.invisibleTagAttrs = options.invisibleTagAttrs || "style='position:absolute;left:-9999px;'";
 
