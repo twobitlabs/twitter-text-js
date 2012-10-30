@@ -595,9 +595,9 @@ if (typeof twttr === "undefined" || twttr === null) {
     options = clone(options || {});
 
     options.hashtagClass = options.hashtagClass || DEFAULT_HASHTAG_CLASS;
-    options.hashtagUrlBase = options.hashtagUrlBase || "https://twitter.com/#!/search?q=%23";
+    options.hashtagUrlBase = options.hashtagUrlBase || "https://mobile.twitter.com/search/%23";
     options.cashtagClass = options.cashtagClass || DEFAULT_CASHTAG_CLASS;
-    options.cashtagUrlBase = options.cashtagUrlBase || "https://twitter.com/#!/search?q=%24";
+    options.cashtagUrlBase = options.cashtagUrlBase || "https://mobile.twitter.com/search?%24";
     options.listClass = options.listClass || DEFAULT_LIST_CLASS;
     options.usernameClass = options.usernameClass || DEFAULT_USERNAME_CLASS;
     options.usernameUrlBase = options.usernameUrlBase || "https://twitter.com/";
